@@ -64,7 +64,7 @@ header{
       float: none;
       display: block;
       width: 100%;
-      text-align: left; 
+      text-align: center; 
     }
   } */
   .icon {
@@ -151,6 +151,13 @@ width: 100vw;
     border-radius: 30px;
     width: 100px;
   }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: center; 
+    }
 }
 
 .col{
