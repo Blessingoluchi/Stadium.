@@ -684,7 +684,7 @@ text-decoration: none;
 }
 
 /* MEDIA QUERIES  */
-@media only screen and (max-width: 480px) and (min-width: 320px) {
+@media only screen and (max-width: 400px) and (min-width: 300px) {
   html,
   body {
       width: 140%;
@@ -697,7 +697,8 @@ text-decoration: none;
     height: 80px;  
 }
 button {
-    display: block;
+  text-align: center;
+
 }
 nav ul{
   display: flex;
